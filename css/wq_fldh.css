@@ -1,9 +1,7 @@
 @import url(base.css);
   
     .wq_fldh{
-  width:257px;height:auto;	position:fixed;
-  top:168px;left:50%;z-index:99;margin-left:-540px;
-  _position:absolute;_left:0;_top:0;
+  width:257px;height:auto;	
   background:#fff;
 	}
 	.wq_fldh_top{
