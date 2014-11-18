@@ -1,4 +1,4 @@
-@import url(hnz_public.css);
+@import url(base.css);
 /*top开始*/
 .nav-box { min-width: 1080px; height: 157px; margin: 0 auto; }
 .color-bg {min-width: 1080px; height: 27px; background: #009494; }
