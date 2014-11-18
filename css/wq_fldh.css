@@ -37,6 +37,9 @@
 		}
 /*翻页效果*/	
 	.wq_fanye{
-  width:400px;	height:20px;border:1px solid red;float:right;
+  width:400px;	height:20px;
   color:#575757;line-height:20px;	
 		}
+   .wq_tiaozhuan{ width:29px;height:20px;text-align:center; 
+   float:left; 
+	   }		
