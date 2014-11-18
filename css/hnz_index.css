@@ -49,7 +49,7 @@
 .hnz_video-box .hnz_videolist li{width:100%;height:46px;border-bottom:1px solid #f1f1f1; text-align:center; line-height:47px;}
 .hnz_video-box .hnz_videolist li a{display:block;width:100%;height:100%;background:#009494;color:#fff;}
 .hnz_video-box .hnz_videolist li a:hover{background:#007575;}
-.hnz_video-box .hnz_videolist  .notb{border:0;}
+.hnz_video-box .hnz_videolist  .hnz_notb{border:0;}
 .hnz_video-box .hnz_videoCon{width:300px;height:100%;position:relative; overflow:hidden;}
 .hnz_video-box .hnz_videoCon li{width:100%;height:100%;}
 .hnz_video-box .hnz_videoCon h3{width:150px;height:auto;color:#fff;font-size:26px;margin:0 71px;}
