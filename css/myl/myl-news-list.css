@@ -1,16 +1,13 @@
 .myl-content{
-              /* border:1px solid red; */
               width:1080px;
               height:800px;
               margin:0 auto;
               margin-top:10px;
               margin-bottom:30px;
-              /* position:relative; */
               }
 
 .myl-news-list-box{
                     background-color:white;
-                    /* border:1px solid red; */
                     width:800px;
                     height:672px;
                     float:left;
@@ -23,18 +20,16 @@
                       line-height:40px;
                       font-size:14px;
                       width:817px;
-                      /* background-color:rgb(239,239,239); */
                       margin-top:6px;
                       margin-bottom:12px;
                       }
 .myl-news-list-title span{
-                           font-size:12px;
+                           font-size:14px;
                            color:rgb(0,148,147);
                            }
 
 .news-item{
             margin-left:14px;
-            /* border:1px solid red; */
             width:248px;
             height:248px;
             margin-right:1px;
@@ -57,7 +52,6 @@
                           z-index:9;
                           }
 .news-item-image-zhezhao-wenzi{
-                                /* background-color:red; */
                                 display:none; 
                                 color:white;
                                 position:absolute;
@@ -85,7 +79,6 @@
                       margin-right:3px;
                       }
 .news-item-content{
-                    /* margin-left:12px; */
                     margin-top:15px;
                     line-height:18px;
                     }
