@@ -2,16 +2,18 @@ $(function(){
 	//返回顶部
 	$(".to-top").hide();
 	var top;
+	var t;
 
 	$(window).scroll(function(){
 		if($(this).scrollTop() > 300){
 			$('.to-top').show();
-			// $('.to-top').animate({bottom:120},100,function(){
-			// 	$('.to-top').animate({bottom:102},100);
-			// });
-			//var int = setInterval(tiao,500);
+		 	clearTimeout(t);
+		 	t = setTimeout(function(){
+		    	$('.to-top').animate({bottom:120},100,function(){
+							$('.to-top').animate({bottom:102},100);
+					});
+		 	},200);
 		}else{
-			//$('.to-top').stop();
 			$('.to-top').hide();
 		};
 		top = $(this).scrollTop();
