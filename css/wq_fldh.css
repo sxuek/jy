@@ -34,6 +34,9 @@
 	.wq_flah_daosanjiao{
 	background:url(../images/wq_sanjiao.png) no-repeat center;
 		}
+	.wq_fldh_click{
+	border-bottom:0;	
+		}	
 /*翻页效果*/	
 	.wq_fanye{
   width:400px;	height:20px;padding-top:10px;padding-bottom:10px;
