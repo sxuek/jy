@@ -1,4 +1,36 @@
 .jiyu-item{
-  border:1px solid #0e1488;
+  width:250px;
+  height:300px;
+  float:left;
   position:relative;
+  margin-top:30px;
+  margin-bottom:20px;
+  display:inline-block;
+  margin-left:10px;
+  background-color:rgb(0,171,171);
+  color:white;
+}
+.jiyu{
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color:rgb(0,148,147);
+  padding-left:30px;
+  height:60px;
+  font-size:15px;
+  color:white;
+}
+.jianjie{
+  margin-top:30px;
+}
+.jianjie img{
+
+  float:left;
+  margin-left:10px;
+  width:80px;
+  height:70px;
+}
+
+.c{
+
+  margin-left:10px;
 }

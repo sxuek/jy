@@ -1,4 +1,33 @@
 $(function(){
+	//返回顶部
+	$(".to-top").hide();
+	var top;
+
+	$(window).scroll(function(){
+		if($(this).scrollTop() > 300){
+			$('.to-top').show();
+			// $('.to-top').animate({bottom:120},100,function(){
+			// 	$('.to-top').animate({bottom:102},100);
+			// });
+			//var int = setInterval(tiao,500);
+		}else{
+			//$('.to-top').stop();
+			$('.to-top').hide();
+		};
+		top = $(this).scrollTop();
+	});
+
+	$(".to-top").click(function(){
+		$({someValue: top }).animate(
+			{someValue: 0}, {
+			duration: 700,
+			step: function() {
+				$(window).scrollTop(this.someValue);
+			}
+		});
+	});
+
+
 	//login btns click
 	$('.hnz_logo-box .hnz_btn').mousedown(function(){$(this).css({background:'#006c6c'})});
 	$('.hnz_logo-box .hnz_btn').mouseup(function(){$(this).css({background:''})});
@@ -24,7 +53,7 @@ $(function(){
 			$('.hnz_b-btns').animate({opacity:0})
 		})
 	var imgNum=0;
-	$('.hnz_l-btn').click(function(){	
+	$('.hnz_l-btn').click(function(){
 		imgs.animate({opacity:0},10);
 		imgNum--;
 		if(imgNum<0){imgNum=imgL-1};
@@ -47,8 +76,8 @@ $(function(){
 		$('.hnz_videoCon li').css({display:'none'});
 		$('.video li:eq('+index+')').css({display:'block'});
 		$(this).css({background:'#007575',opacity:1});
-		
+
 		$('.hnz_videoCon li:eq('+index+')').css({display:'block'});
-		
+
 		})
 	})
