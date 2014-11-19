@@ -38,13 +38,13 @@ $(function(){
 	$('.hnz_nav li:not(:first)').hover(function(){
 		var index=$('.hnz_nav li:not(:first)').index(this);
 		$('.hnz_nav li:not(:first)>a:eq('+index+')').css({background:'#009494',color:'#fff'});
-		$(this).find('i').css({background:'url(../images/hnz_arrow_hot.png) no-repeat 0 0'})
+		$(this).find('i').css({background:'url(images/hnz_arrow_hot.png) no-repeat 0 0'})
 		t=setTimeout(function(){
 			$('.hnz_nav li:not(:first) dl:eq('+index+')').slideDown(300);
 			},150)
 		},function(){
 			$('.hnz_nav li:not(:first)>a').css({background:'',color:''});
-			$(this).find('i').css({background:'url(../images/hnz_arrow.png) no-repeat 0 0'});
+			$(this).find('i').css({background:'url(images/hnz_arrow.png) no-repeat 0 0'});
 			clearTimeout(t);
 			$('.hnz_nav li dl').slideUp(200);
 	})
