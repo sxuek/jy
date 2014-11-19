@@ -5,23 +5,22 @@
   margin-left:20px;
   margin-bottom:20px;
   position:relative;
-  display:inline;
+  display:inline-block;
 }
 .guangying-item p{
-  padding-left:10px;
-  display:block;
+  padding:0 10px;
   height:50px;
   line-height:50px;
-  width:350px;
+  width:340px;
   background-color:#0e0e01;
   opacity:0.9;
-  margin-top:-20px;
+  filter:alpha(opacity=90);
   position:absolute;
   bottom:0px;
+  left:0;
 }
 .guangying-item span{
-  position:absolute;
-  right:10px;
+  float:right;
 }
 .play{
   position:absolute;
