@@ -6,6 +6,7 @@
   margin-bottom:20px;
   position:relative;
   display:inline-block;
+  overflow:hidden;
 }
 .guangying-item p{
   padding:0 10px;
@@ -20,7 +21,10 @@
   left:0;
 }
 .guangying-item span{
-  float:right;
+ float:right;
+}
+.guangying-item em{
+   float:left;font-style:normal;
 }
 .play{
   position:absolute;
