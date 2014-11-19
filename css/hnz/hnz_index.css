@@ -15,7 +15,7 @@
 	/*nav*/
 .hnz_n-box{min-width:1080px;height:49px;border-top:1px solid #009494;}
 .hnz_nav{width:1080px;height:100%;margin:0 auto;}
-.hnz_nav li{width:122px;height:100%;float:left; position:relative;}
+.hnz_nav li{width:122px;height:100%;float:left; position:relative;z-index:999;}
 .hnz_nav li a{ display:block;width:100%;height:100%; text-align:center; line-height:49px; color:#009494;}
 .hnz_nav li i{width:15px;height:15px;background:url(../../images/hnz_arrow.png) no-repeat 0 0; position:absolute; right:10%;top:16px;}
 .hnz_nav li:hover>a{background:#009494;color:#fff;}
