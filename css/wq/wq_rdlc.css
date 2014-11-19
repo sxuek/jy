@@ -1,0 +1,25 @@
+ .wq_newslist{
+	width:248px;height:248px;background:blue;float:left;
+	display:inline; margin-left:15px;margin-bottom:15px;
+	position:relative;
+	 }
+ .wq_play{
+	width:70px;height:70px;background:url(../../images/myl_play.png) no-repeat;  position:absolute; left:85px;top:80px; cursor:pointer;
+	 }
+ .wq_news_bottom{
+	width:221px;height:60px;position:absolute;bottom:0;background:#009494;
+	opacity:0.5;filter:alpha(50); padding-left:12px;padding-top:5px;
+	padding-right:15px;
+	 }	 
+  .wq_news_title{
+	 font-size:16px;color:#fff;  
+	  }	    	 
+  .wq_author_name{
+	 font-size:14px; color:#fff;
+	  }
+  .wq_number{
+	font-size:12px;	color:#fff; 
+		 } 	
+  .wq_news_jianjie{
+	 font-size:12px;color:#fff; 
+	  }		   
