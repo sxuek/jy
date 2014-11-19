@@ -1,0 +1,11 @@
+ .wq_gmgs_list{
+   width:787px;	height:165px; border:1px solid red;
+   margin:0 auto;
+	 }
+ .wq_gmgs_list:hover{
+		 background:#f6f6f6; 
+		 } 
+ .wq_gmgs_bottom{
+  width:100%;height:32px;border-bottom:1px solid #f6f6f6;
+ 
+	 }
