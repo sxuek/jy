@@ -1,0 +1,32 @@
+.guangying-item{
+  border:1px solid #0f551d;
+  width:360px;
+  height:280px;
+  margin-left:20px;
+  margin-bottom:20px;
+  position:relative;
+  display:inline;
+}
+.guangying-item p{
+  padding-left:10px;
+  display:block;
+  height:50px;
+  line-height:50px;
+  width:350px;
+  background-color:#0e0e01;
+  opacity:0.9;
+  margin-top:-20px;
+  position:absolute;
+  bottom:0px;
+}
+.guangying-item span{
+  position:absolute;
+  right:10px;
+}
+.play{
+  position:absolute;
+  top:50%;
+  margin-top:-35px;
+  left:50%;
+  margin-left:-35px;
+}

@@ -1,0 +1,19 @@
+.tushuo-item{
+  border:1px solid #0f551d;
+  width:360px;
+  height:280px;
+  margin-left:20px;
+  margin-bottom:60px;
+  position:relative;
+  display:inline;
+}
+.tushuo-item p{
+  display:block;
+  height:50px;
+  line-height:50px;
+  width:360px;
+}
+.tushuo-item span{
+  position:absolute;
+  right:10px;
+}

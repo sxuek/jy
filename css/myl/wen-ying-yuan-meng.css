@@ -1,0 +1,39 @@
+.yuanmeng-item {
+  margin-bottom:20px;
+                 }
+.yuanmeng-item-image{
+                      margin-left:10px;
+                      width:200px;height:180px;
+                      box-shadow:  0px 2px 5px rgb(179,179,179) ;
+                      overflow:hidden;
+                      }
+.yuanmeng-item-image img{
+                      margin-top:5px;
+                      margin-left:5px;
+                      }
+.yuanmeng-item-content{
+                        position:relative;
+                        height:180px;
+                        width:572px;
+                        box-shadow:  0px 2px 5px rgb(179,179,179) ;
+                        }
+.yuanmeng-item-content img{
+                            opacity:0.3;
+                            }
+
+.neirong{
+          position:absolute;
+          top:20px;
+          left:60px;
+          margin-top:11px;
+          width:500px;
+          line-height:30px;
+          letter-spacing:2px;
+          }
+
+.neirong li{
+            width:200px;
+             margin-right:40px;
+             display:block;
+             float:left;
+             }
