@@ -1,6 +1,6 @@
 .myl-content{
               /* border:1px solid red; */
-              width:1130px;
+              width:1080px;
               height:800px;
               margin:0 auto;
               margin-top:10px;
@@ -11,7 +11,7 @@
 .myl-news-list-box{
                     background-color:white;
                     /* border:1px solid red; */
-                    width:828px;
+                    width:800px;
                     height:672px;
                     float:left;
                     margin-left:20px;
@@ -37,7 +37,7 @@
             /* border:1px solid red; */
             width:248px;
             height:248px;
-            margin-right:14px;
+            margin-right:1px;
             margin-bottom:20px;
             position:relative;
             }
