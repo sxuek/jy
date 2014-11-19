@@ -1,0 +1,11 @@
+.yuanmeng-item {
+                background-color:green; 
+                 }
+.yuanmeng-item-image{
+                  width:247px;height:181px;
+                  box-shadow:  0px 2px 5px rgb(179,179,179) ;
+                      }
+.yuanmeng-item-content{
+                        background-color:red;
+                        width:300px;
+                        }
