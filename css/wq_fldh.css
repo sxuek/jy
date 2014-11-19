@@ -1,6 +1,7 @@
 @import url(base.css);
   
     .wq_fldh{
+  float:left;
   width:257px;height:auto;	
   background:#fff;
 	}
