@@ -1,25 +1,25 @@
-@import url(base.css);
+@import url(../base.css);
 /*top开始*/
 .hnz_nav-box { min-width: 1080px; height: 157px; margin: 0 auto; }
 .hnz_color-bg {min-width: 1080px; height: 27px; background: #009494; }
 	/*logo*/
 .hnz_logo-box { width: 1080px; height: 80px; margin: 0 auto; }
-.hnz_logo-box .hnz_logo { width: 190px; height: 64px; background: url(../images/hnz_logo.gif) no-repeat 0 0; margin: 8px 0;}
+.hnz_logo-box .hnz_logo { width: 190px; height: 64px; background: url(../../images/hnz_logo.gif) no-repeat 0 0; margin: 8px 0;}
 	/*login*/
 .hnz_login-box{width:550px;height:30px;margin:25px 0;}
-.hnz_login-box .hnz_user{width:100px;height:28px;border:1px solid #009494; background:url(../images/hnz_user.gif) no-repeat 110px center;padding:0 30px 0 5px;}
-.hnz_login-box .hnz_pwd{width:100px;height:28px;border:1px solid #009494; background:url(../images/hnz_pwd.gif) no-repeat 110px center;padding:0 30px 0 5px;margin-left:5px;}
+.hnz_login-box .hnz_user{width:100px;height:28px;border:1px solid #009494; background:url(../../images/hnz_user.gif) no-repeat 110px center;padding:0 30px 0 5px;}
+.hnz_login-box .hnz_pwd{width:100px;height:28px;border:1px solid #009494; background:url(../../images/hnz_pwd.gif) no-repeat 110px center;padding:0 30px 0 5px;margin-left:5px;}
 .hnz_login-box .hnz_btn{width:60px;height:30px;background:#009494;border:0;color:#fff; cursor:pointer;margin-left:5px;}
 .hnz_login-box .hnz_search-input{width:160px;height:28px;border:1px solid #009494;padding:0 5px;margin-left:5px;}
-.hnz_login-box .hnz_search-btn{width:29px;height:30px;background:#009494 url(../images/hnz_search.gif) no-repeat 0 0;border:0;margin-left:0px; cursor:pointer;}
+.hnz_login-box .hnz_search-btn{width:29px;height:30px;background:#009494 url(../../images/hnz_search.gif) no-repeat 0 0;border:0;margin-left:0px; cursor:pointer;}
 	/*nav*/
 .hnz_n-box{min-width:1080px;height:49px;border-top:1px solid #009494;}
 .hnz_nav{width:1080px;height:100%;margin:0 auto;}
 .hnz_nav li{width:122px;height:100%;float:left; position:relative;}
 .hnz_nav li a{ display:block;width:100%;height:100%; text-align:center; line-height:49px; color:#009494;}
-.hnz_nav li i{width:15px;height:15px;background:url(../images/hnz_arrow.png) no-repeat 0 0; position:absolute; right:10%;top:16px;}
+.hnz_nav li i{width:15px;height:15px;background:url(../../images/hnz_arrow.png) no-repeat 0 0; position:absolute; right:10%;top:16px;}
 .hnz_nav li:hover>a{background:#009494;color:#fff;}
-.hnz_nav li:hover i{background:url(../images/hnz_arrow_hot.png) no-repeat 0 0;}
+.hnz_nav li:hover i{background:url(../../images/hnz_arrow_hot.png) no-repeat 0 0;}
 #hnz_hot a{background:#009494;color:#fff;}
 .hnz_nav li dl{width:100%;height:auto; display:none; position:absolute; z-index:999;}
 .hnz_nav li dl dd{width:100%;height:49px;background:#009494;border-top:1px solid #fff;}
@@ -54,7 +54,7 @@
 .hnz_video-box .hnz_videoCon li{width:100%;height:100%;}
 .hnz_video-box .hnz_videoCon h3{width:150px;height:auto;color:#fff;font-size:26px;margin:0 71px;}
 .hnz_video-box .hnz_videoCon p{width:150px;height:auto;color:#fff; font-size:14px;margin:10px 71px;}
-.hnz_video-box .hnz_videoCon i{display:block;width:44px;height:44px; background:url(../images/hnz_video.gif) no-repeat top center; position:absolute;right:5%;top:0;}
+.hnz_video-box .hnz_videoCon i{display:block;width:44px;height:44px; background:url(../../images/hnz/hnz_video.gif) no-repeat top center; position:absolute;right:5%;top:0;}
 /*content */
 .hnz_content-box{width:1080px;height:300px;margin:0 auto;margin-top:32px;}
 .hnz_content-box .hnz_con-lft{width:600px;height:300px;float:left;}
@@ -67,7 +67,7 @@
 .hnz_sub-c-lft .hnz_xytg{background:#009494;}
 .hnz_sub-c-lft .hnz_xsbg{background:#009494;}
 .hnz_sub-c-lft .hnz_tznr{background:#25abab;}
-.hnz_content-box .hnz_sub-c-rt{width:240px;height:270px; background:url(../images/hnz_sdxb.gif) no-repeat 0 0;float:left;padding:15px 30px;}
+.hnz_content-box .hnz_sub-c-rt{width:240px;height:270px; background:url(../../images/hnz/hnz_sdxb.gif) no-repeat 0 0;float:left;padding:15px 30px;}
 .hnz_sub-c-rt .hnz_sdxb h3{font-size:24px;color:#fff;}
 .hnz_sub-c-rt .hnz_sdxb:hover h3{color:#009494;}
 .hnz_sub-c-rt .hnz_sdxb:hover p{color:#009494;}
@@ -81,10 +81,10 @@
 .hnz_con-rt a p{font-size:16px;color:#fff;margin-left:10px;margin-top:5px;}
 .hnz_con-rt a:hover{background:#006c6c;}
 .hnz_con-rt .hnz_axsw{background:#009494;}
-.hnz_con-rt .hnz_xgxt{background:url(../images/hnz_xgxt.png) no-repeat 0 0;}
+.hnz_con-rt .hnz_xgxt{background:url(../../images/hnz/hnz_xgxt.png) no-repeat 0 0;}
 .hnz_con-rt .hnz_xgxt h3{margin-top:70px;}
 .hnz_con-rt .hnz_ewm{width:150px;height:150px;float:left;background:#009494;}
-.hnz_con-rt .hnz_xsmhxx{background:url(../images/hnz_xsmhxx.gif) no-repeat 0 0;}
+.hnz_con-rt .hnz_xsmhxx{background:url(../../images/hnz/hnz_xsmhxx.gif) no-repeat 0 0;}
 .hnz_con-rt .hnz_xsmhxx h3{margin-top:50px;}
 .hnz_con-rt .hnz_tpxt{background:#009494;}
 /*footer开始*/
