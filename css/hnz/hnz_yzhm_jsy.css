@@ -1,0 +1,21 @@
+@import url(../base.css);
+/*jsy*/
+.hnz_jsy-box{width:1080px;height:530px; margin:0 auto;margin-top:25px;ma rgin-bottom:25px; box-shadow: 0 2px 5px #ccc; background: #fff url(../../images/hnz/hnz_yzhm-title.gif) no-repeat 0 10px; overflow:hidden; position:relative;}
+.hnz_jsy-box div{position:relative; z-index:10;}
+.hnz_jpdd{width:434px;height:394px;margin:123px 0 10px 10px; overflow:hidden; display:inline;}
+.hnz_dxsx{width:310px;height:254px;overflow:hidden;margin-top:10px;}
+.hnz_sdws{width:316px;height:379px; overflow:hidden;margin-top:10px;}
+.hnz_qzjt{width:310px;height:253px;overflow:hidden;margin-top:-125px;}
+.hnz-bg-img{ display:block;width:100%;height:100%; background:url(../../images/hnz/hnz_yzhm-rb-bg.gif) no-repeat 754px 350px; z-index:2;position:absolute;top:0;left:0;overflow:hidden;}
+.hnz_jsy-box div a{display:block;width:100%;height:100%;background:red;
+position:relative;z-index:100;
+}
+.hnz_jsy-box div dl{width:100%;height:auto;color:#fff;background:#000; position:absolute;bottom:0; opacity:0.8;filter:alpha(opacity=80); 
+left:0;
+}
+.hnz_jsy-box div dl span{float:left; display:inline-block;}
+.hnz_jsy-box div dl dt b{float:right;display: inline-block;width:19px;height:19px; border-radius:50%; font-family:"微软雅黑"; font-weight:normal; border:1px solid #fff; font-size:14px; text-align:center; line-height:19px;margin-top:7px}
+.hnz_jsy-box div dl dt{width:80%;height:35px;margin:0 auto; text-align:left; padding:0 5%;line-height:35px; border-bottom:1px solid #ccc;  transition: all 1s ease;
+}
+.hnz_jsy-box div dl dd{width:80%;height:auto;margin:0 auto;padding:15px 10%; }
+/*jsy 结束*/
