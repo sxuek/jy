@@ -8,8 +8,8 @@
 .hnz_rt-con-rt .hnz_sjbh{width:auto;height:40px; line-height:40px; border-bottom:1px solid #CCCCCC;} 
 .hnz_content{width:100%;height:auto; overflow:hidden;}
 .hnz_content h5{width:100%;height:40px; font-size:16px; line-height:40px; border-bottom:1px solid #ccc;}
-.hnz_content p{width:100%;height:auto;padding: 20px 5%; line-height:26px;}
-.hnz_content ul{width:100%;height:auto; overflow:hidden;padding:5%;}
+.hnz_content p{width:90%;height:auto;padding: 20px 5%; line-height:26px;}
+.hnz_content ul{width:90%;height:auto; overflow:hidden;padding:5%;}
 .hnz_content ul li{width:100%;height:40px; line-height:40px;}
 .hnz_content ul li a:hover{color:#009494;}
 .hnz_fy{width:100%;height:50px; overflow:hidden;}
