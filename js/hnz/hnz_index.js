@@ -73,18 +73,53 @@ $(function(){
 		$(imgs[imgNum]).animate({opacity:1},500)
 		})
 	// banner video
+	var newTnum=0;
+	var newT;
 	$('.hnz_videolist li a').css({opacity:0.7});
 	$('.hnz_videolist li a:first').css({background:'#007575'});
 	$('.hnz_videolist li:last').addClass('hnz_notb');
+	$('.hnz_video li').hover(function(){
+		clearInterval(newT)
+		},function(){
+		newT=setInterval(newsTab,2000)
+		})
+	$('.hnz_videolist li a').hover(function(){
+		clearInterval(newT)
+		},function(){
+		newT=setInterval(newsTab,2000)
+		})
 	$('.hnz_videolist li a').click(function(){
+		
 		var index=$('.hnz_videolist li a').index(this);
 		$('.hnz_video li').css({display:'none'});
 		$('.hnz_videolist li a').css({background:' #009494',opacity:0.7});
 		$('.hnz_videoCon li').css({display:'none'});
-		$('.video li:eq('+index+')').css({display:'block'});
+		$('.hnz_video li:eq('+index+')').css({display:'block'});
 		$(this).css({background:'#007575',opacity:1});
 
 		$('.hnz_videoCon li:eq('+index+')').css({display:'block'});
-
+		newTnum=index;
 		})
+	
+	newT=setInterval(newsTab,3000)
+	function newsTab(){
+		newTnum++;
+		if(newTnum>$('.hnz_videolist li a').length-1){newTnum=0;}
+		$('.hnz_video li').css({display:'none'});
+		$('.hnz_videoCon li').css({display:'none'});
+		$('.hnz_videolist li a').css({background:' #009494',opacity:0.7});
+		$('.hnz_video li:eq('+newTnum+')').css({display:'block'});
+		$('.hnz_videolist li a:eq('+newTnum+')').css({background:'#007575',opacity:1});
+		$('.hnz_videoCon li:eq('+newTnum+')').css({display:'block'});
+		}	
+		//banner video 结束
+		//content tab 开始
+		$('.hnz_sub-c-lft a').click(function(){
+			var index=$('.hnz_sub-c-lft a').index(this);
+			$('.hnz_sub-c-rt li').css({display:'none'});
+			$('.hnz_sub-c-rt li:eq('+index+')').css({display:'block'});
+		})
+		//content tab 结束
 	})
+	
+
