@@ -114,7 +114,7 @@ $(function(){
 		}	
 		//banner video 结束
 		//content tab 开始
-		$('.hnz_sub-c-lft a').click(function(){
+		$('.hnz_sub-c-lft a').hover(function(){
 			var index=$('.hnz_sub-c-lft a').index(this);
 			$('.hnz_sub-c-rt li').css({display:'none'});
 			$('.hnz_sub-c-rt li:eq('+index+')').css({display:'block'});
