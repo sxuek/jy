@@ -41,10 +41,10 @@
 .hnz_videoout-box{width:1080px;height:329px;margin-left:-540px;position:absolute;top:43px;left:50%; z-index:998;}
 		/*video window*/
 .hnz_video-box{width:1080px;height:100%;}
-.hnz_video-box .hnz_video{width:638px;height:318px; background:rgba(0,148,148,0.7); overflow:hidden;padding:5px;}
-.hnz_video-box .hnz_video li{width:100%;height:100%;}
+.hnz_video-box .hnz_video{width:648px;height:324px; background:#fff; overflow:hidden;padding:2px;}
+.hnz_video-box .hnz_video li{width:100%;height:100%; display:none;s}
 .hnz_video-box .hnz_video li video{height:100%;}
-.hnz_video-box .hnz_video li img{width:638px;height:auto;}
+.hnz_video-box .hnz_video li img{width:647px;height:auto;}
 		/*video list*/
 .hnz_video-box .hnz_videolist{width:122px;height:100%;}
 .hnz_video-box .hnz_videolist li{width:100%;height:46px;border-bottom:1px solid #f1f1f1; text-align:center; line-height:47px;}

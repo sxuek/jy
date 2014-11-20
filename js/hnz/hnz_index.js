@@ -75,6 +75,7 @@ $(function(){
 	// banner video
 	var newTnum=0;
 	var newT;
+	$('.hnz_video li:first').css({display:'block'});
 	$('.hnz_videolist li a').css({opacity:0.7});
 	$('.hnz_videolist li a:first').css({background:'#007575'});
 	$('.hnz_videolist li:last').addClass('hnz_notb');
