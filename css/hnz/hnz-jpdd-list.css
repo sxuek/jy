@@ -2,7 +2,7 @@
 background:#fff;
                     height:auto;
                     float:right;
-                    box-shadow:2px 2px 10px #bbb;;
+                    box-shadow:2px 2px 5px #bbb;
                     display:inline-block;padding:16px;}
 .hnz_rt-list li{width:778px;height:109px;margin-bottom:25px;}
 .hnz_rt-list li .hnz_rt-list-img{width:218px;height:109px;float:left;}
