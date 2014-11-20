@@ -1,0 +1,88 @@
+  .myl-content{
+              width:1080px;
+              height:auto;
+              overflow:hidden;
+              margin:0 auto;
+              margin-top:25px;
+              margin-bottom:25px;
+              }
+  .wq_right_top{
+	         width:800px;height:60px;
+	  }			  
+ #wq_right_serch{
+	width:500px;height:38px;
+	border:1px solid #009494; 
+	border-radius:9px;
+	float:left;font-size:16px;
+	color:#555;padding-left:30px;
+	font-weight:bold;
+	 }	 
+ .wq_serchbut{
+	width:75px;height:40px;float:left;margin-left:-15px;
+	border-radius:9px; background:url(../../images/wq/wq_fdj.jpg) no-repeat center #259fa0;cursor:pointer;
+	 }
+ .wq_paixu{
+	width:145px;height:38px;border:1px solid #009494; float:right;
+	background:#fff;
+	line-height:40px;color:#555;
+	font-size:16px;
+	font-weight:bold;
+	padding-left:15px;
+	cursor:pointer;
+	 }
+ .wq_rightpic{
+	float:right;width:20px;height:38px; 
+	background:url(../../images/wq/wq_axdown.jpg) no-repeat center;
+	margin-right:5px;
+	 }	 	 
+ .wq_rightpicss{
+	background:url(../../images/wq/wq_axtop.jpg) no-repeat center; 
+	 }	 
+ .wq_axsw_top{
+	background:url(../../images/wq/wq_aximag.jpg) no-repeat;width:800px;
+	height:65px;padding-top:126px; 
+	 }	 
+ .wq_axsw_zhezhao{
+	width:800px;height:65px; background:#000;opacity:0.5; filter:alpha(50);
+	position:relative;
+	 }	
+  .wq_axsw_tb{
+	width:500px;height:65px;position:absolute;right:0;background:url(../../images/wq/wq_axsw_title.png) no-repeat; z-index:99;
+	 }	
+  .wq_axsw_listbox{
+	width:785px;height:auto;background:#fff;padding-top:15px;
+	padding-left:15px;  margin-top:40px;
+	  }	
+  .wq_axsu_list{
+	 height:190px; width:770px;background:#f5f5f5;margin-bottom:15px;
+	  }	     
+   .wq_list_left{
+	 height:100%;width:155px;background:blue;margin-right:17px;
+	   }	
+   .wq_list_one{
+	  width:580px;height:40px;line-height:40px;
+	   }	
+	.wq_list_one a{
+	  font-size:16px;color:#000;font-weight:bold; float:left;	
+		} 
+	.wq_list_one span{
+	  color:#666;float:right;	
+		}	      
+	 .wq_list_two{
+	 color:#009494;width:580px;height:30px;line-height:30px;	 
+		 } 
+	 .wq_list_three{
+	  width:580px;height:90px;color:#666;	 
+		 }
+	.wq_list_three span{
+	 color:#009494;	
+		}	
+	 .wq_list_count{
+	  width:150px;height:30px;line-height:30px;background:#009494;
+	  color:#fff;padding-left:650px;	 
+		 }	 
+	 
+	 
+	 
+	 
+	 	  
