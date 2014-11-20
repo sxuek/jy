@@ -21,4 +21,4 @@
 .hnz_kc{ float: left; width: 120px; height: 20px; background: url(../../images/hnz/hnz_kc-icon.gif) no-repeat 0 center; padding-left: 18px; }
 .hnz_wz{ width: 50px; height: 20px; background: url(../../images/hnz/hnz_weizhi.gif) no-repeat 0 center; padding-left: 18px; }
 .hnz_see { width: 50px; height: 20px; background: url(../../images/hnz/hnz_jpdd-ckcs.gif) no-repeat 0 center; padding-left: 20px; }
-.hnz_rt-list-con p { width: 100%; height: 45px; margin-top: 5px; border-top: 1px solid #ccc; overflow: hidden; }
+.hnz_rt-list-con p { width: 100%; height: 45px; margin-top: 5px; border-top: 1px solid #ccc; overflow: hidden; line-height:25px; }
