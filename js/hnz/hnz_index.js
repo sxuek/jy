@@ -61,16 +61,16 @@ $(function(){
 		})
 	var imgNum=0;
 	$('.hnz_l-btn').click(function(){
-		imgs.animate({opacity:0},10);
+		imgs.css({zIndex:0},10);
 		imgNum--;
 		if(imgNum<0){imgNum=imgL-1};
-		$(imgs[imgNum]).animate({opacity:1},500)
+		$(imgs[imgNum]).css({zIndex:3})
 		})
 	$('.hnz_r-btn').click(function(){
-		imgs.animate({opacity:0},10);
+		imgs.css({zIndex:0},10);
 		imgNum++;
 		if(imgNum>imgL-1){imgNum=0};
-		$(imgs[imgNum]).animate({opacity:1},500)
+		$(imgs[imgNum]).css({zIndex:3})
 		})
 	// banner video
 	var newTnum=0;
