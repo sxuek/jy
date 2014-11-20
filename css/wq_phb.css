@@ -2,28 +2,22 @@
  .wq_phb{
    float:left;
   width:257px;height:auto;	
-  background:#fff;	 
+  background:#fff;	
+  margin-bottom:20px; 
 	 }
  .wq_phb_title{
 	width:100%;height:40px;text-align:center;color:#fff; 
 	line-height:40px;background:#009494;font-size:16px;
 	font-weight:bold;
+	transition:all 0.7s ease;
 	 }
   .wq_phb_list{
 	 width:230px;height:40px;line-height:40px;padding-left:27px; 
 	 border-bottom:1px solid #f0f0f0;overflow:hidden;
-	  }	 	 
-  .wq_phb_bottom{
-	 height:40px;width:100%; 
-	  }	  
-  .wq_phb_inner{
-	 width: 160px;height:40px;margin:0 auto;
-	 line-height:40px;text-align:center;
+	 display:block;
+	 transition:all 0.7s ease;
 	  }	
-    .wq_phb_inner span{
-	padding:5px;border:1px solid #ccc;	color:#009494;
-	padding-left:10px;padding-right:10px;
-		}	    
-	 .wq_phb_inner em{
-		cursor:pointer;font-style:normal; 
-		 }	
+.wq_phb_list:hover{
+		background:#eee;
+} 	 
+
