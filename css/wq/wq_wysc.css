@@ -1,0 +1,33 @@
+  .wq_wysc_topimg{
+	 width:800px;height:263px;background:url(../../images/wq/wq_wysc.jpg) no-repeat; 
+	  }
+   .wq_wysc_box{
+	 width:800px;height:849px;margin-top:40px; 
+	   }	   
+    .wq_wysc_one{
+	width:230px;height:413px;margin-right:55px;
+	background:#fff;	
+		}	   
+	.wq_wyone_top{
+	width:100%;height:290px;position:relative;	background:#009494;
+		}	
+	.wq_wyone_zhezhao{
+	width:100%;height:50px;background:#000;opacity:0.5;filter:alpha(500);
+	position:absolute;left:0; bottom:0;
+		}	
+	.wq_wyone_down{
+	width:36px;height:50px;margin:0 auto;padding-left:30px;line-height:50px;
+	font-size:16px;color:#fff;background:url(../../images/wq/wq_download.png)
+	no-repeat left ;	cursor:pointer;
+		}	
+	.wq_wysc_one h3{
+	padding-left:15px;	font-weight:bold;
+		}
+	.wq_wyone_author{
+	color:#009494;padding-left:15px;	
+		}	
+	.wq_wyone_magzin{
+	color:#555;padding-left:15px;	
+		}	
+		
+		
