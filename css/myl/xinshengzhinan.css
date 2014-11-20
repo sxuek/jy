@@ -1,0 +1,28 @@
+.zhinanpic{
+            margin-top:10px;
+            width:780px;
+            margin:0 auto;
+            height:483px;
+            position:relative;
+            }
+.right-image{
+              top:50%;
+              right:10px;
+              margin-top:-24px;
+              position:absolute;
+              } 
+.left-image{
+              top:50%;
+              left:10px;
+              margin-top:-24px;
+              position:absolute;
+             }
+.zhinancontent{
+                font-size:17px;
+                line-height:20px;
+                /* border:1px solid red; */
+                width:780px;
+                margin:0 auto;
+                margin-top:20px;
+                margin-bottom:20px;
+                }
