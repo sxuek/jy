@@ -1,7 +1,8 @@
 body,div,ul,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,input{margin:0;padding:0; list-style:none; font-weight:normal;}
-b,i,em{text-decoration:none;}
+b,i,em{text-decoration:none; font-style:normal;}
 body{font-family:"微软雅黑";font-size:14px;color:#575757;background:#f3f3f3 url(../images/hnz_bg.gif) repeat-x 0 0;}
 a{font-size:14px;color:#575757;text-decoration:none;}
 img{border:0;}
 .lt{float:left;}
 .rt{float:right;}
+ 

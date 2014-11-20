@@ -41,9 +41,10 @@
 .hnz_videoout-box{width:1080px;height:329px;margin-left:-540px;position:absolute;top:43px;left:50%; z-index:998;}
 		/*video window*/
 .hnz_video-box{width:1080px;height:100%;}
-.hnz_video-box .hnz_video{width:658px;height:329px; background:#fff; overflow:hidden;}
-.hnz_video-box .hnz_video li{width:100%;height:100%;}
+.hnz_video-box .hnz_video{width:648px;height:324px; background:#fff; overflow:hidden;padding:2px;}
+.hnz_video-box .hnz_video li{width:100%;height:100%; display:none;s}
 .hnz_video-box .hnz_video li video{height:100%;}
+.hnz_video-box .hnz_video li img{width:647px;height:auto;}
 		/*video list*/
 .hnz_video-box .hnz_videolist{width:122px;height:100%;}
 .hnz_video-box .hnz_videolist li{width:100%;height:46px;border-bottom:1px solid #f1f1f1; text-align:center; line-height:47px;}
@@ -67,13 +68,14 @@
 .hnz_sub-c-lft .hnz_xytg{background:#009494;}
 .hnz_sub-c-lft .hnz_xsbg{background:#009494;}
 .hnz_sub-c-lft .hnz_tznr{background:#25abab;}
-.hnz_content-box .hnz_sub-c-rt{width:240px;height:270px; background:url(../../images/hnz/hnz_sdxb.gif) no-repeat 0 0;float:left;padding:15px 30px;}
+.hnz_content-box .hnz_sub-c-rt{width:300px;height:300px; background:url(../../images/hnz/hnz_sdxb.gif) no-repeat 0 0;float:left;overflow:hidden;}
+.hnz_content-box .hnz_sub-c-rt li{width:240px;height:270px;padding:15px 30px; overflow:hidden;}
 .hnz_sub-c-rt .hnz_sdxb h3{font-size:24px;color:#fff;}
 .hnz_sub-c-rt .hnz_sdxb:hover h3{color:#009494;}
 .hnz_sub-c-rt .hnz_sdxb:hover p{color:#009494;}
 .hnz_sub-c-rt .hnz_sdxb p{color:#fff;margin-top:5px;}
 .hnz_sub-c-rt .hnz_sdxb-list{width:240px;height:200px;margin-top:20px;}
-.hnz_sub-c-rt .hnz_sdxb-list a{display:block;color:#fff;font-size:12px;margin-bottom:5px;}
+.hnz_sub-c-rt .hnz_sdxb-list a{display:block;color:#fff;font-size:14px;margin-bottom:5px;}
 .hnz_sub-c-rt a:hover{color:#009494;}
 .hnz_content-box .hnz_con-rt {width:450px;height:300px;float:left;margin-left:30px;}
 .hnz_con-rt a{width:150px;height:150px;float:left;}
@@ -81,7 +83,7 @@
 .hnz_con-rt a p{font-size:16px;color:#fff;margin-left:10px;margin-top:5px;}
 .hnz_con-rt a:hover{background:#006c6c;}
 .hnz_con-rt .hnz_axsw{background:#009494;}
-.hnz_con-rt .hnz_xgxt{background:url(../../images/hnz/hnz_xgxt.png) no-repeat 0 0;}
+.hnz_con-rt .hnz_xgxt{background:url(../../images/hnz/hnz_index-yczp.jpg) no-repeat 0 0;}
 .hnz_con-rt .hnz_xgxt h3{margin-top:70px;}
 .hnz_con-rt .hnz_ewm{width:150px;height:150px;float:left;background:#009494;}
 .hnz_con-rt .hnz_xsmhxx{background:url(../../images/hnz/hnz_xsmhxx.gif) no-repeat 0 0;}
@@ -100,5 +102,6 @@
 	position:fixed;
 	bottom:103px;
 	right:30px;
+	_position:absolute;
 }
 /*返回顶部*/
