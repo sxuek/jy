@@ -9,10 +9,17 @@
 <script src="../js/wq_fldh.js"></script>
 <script src="../js/myl/myl_news_list.js"></script>
 <script src="../js/yyj/yyj_news_list.js"></script>
+<script src="../js/hnz/hnz_jquery.fs.boxer.min.js"></script>
+<script>
+$(function(){
+	$('.boxer').boxer();
+});
+</script>
 <link rel="stylesheet" type="text/css" href="../css/hnz/hnz_index.css" />
 <link rel="stylesheet" href="../css/wq_fldh.css">
 <link rel="stylesheet" href="../css/myl/myl-news-list.css">
 <link rel="stylesheet" href="../css/hnz/hnz-jpdd-list.css" />
+<link rel="stylesheet" href="../css/hnz/hnz_jquery.fs.boxer.css" />
 <title>山西大学君宇网</title>
 </head>
 <body>
@@ -98,14 +105,26 @@
     <ul class="wq_fldh_content">
       <!--标题及子元素部分-->
       <li class="wq_fldh_title"> <span style="float:left;">山大往事</span> <span class="wq_fldh_sanjiao"></span> </li>
+      <div class="wq_list">
+        <div class="wq_fldh_list">山大往事</div>
+      </div>
       <!-------------------------------->
-       <li class="wq_fldh_title"> <span style="float:left;">德秀书香</span> <span class="wq_fldh_sanjiao"></span> </li>
+      <li class="wq_fldh_title"> <span style="float:left;">德秀书香</span> <span class="wq_fldh_sanjiao"></span></li>
       <div class="wq_list">
         <div class="wq_fldh_list">文史类</div>
         <div class="wq_fldh_list">理工类</div>
       </div>
+       <!-------------------------------->
       <li class="wq_fldh_title"> <span style="float:left;">启智讲坛</span> <span class="wq_fldh_sanjiao"></span> </li>
+        <div class="wq_list">
+        <div class="wq_fldh_list">启智讲坛</div>
+      </div>
+       <!-------------------------------->
      <li class="wq_fldh_title"> <span style="float:left;">精品课程</span> <span class="wq_fldh_sanjiao"></span> </li>
+     <div class="wq_list">
+        <div class="wq_fldh_list">精品课程</div>
+      </div>
+      <!-------------------------------->
     </ul>
     <ul class="wq_fldh_bottom">
     </ul>
@@ -128,14 +147,16 @@
     <!--一个列表结束-->
      	<!--一个列表开始-->
   	<li>
+    <a href="http://player.youku.com/player.php/sid/XMzMxNjY5MzI0/v.swf" class="boxer"  rel="videos">
     <div class="hnz_rt-list-img">
     <img src="../images/hnz/hnz_jpdd_jsyimg.jpg" />  
-    <a class="hnz_rt-list-move" href="#"></a> <!--这个是视频-->
+    <i class="hnz_rt-list-move"></i> <!--这个是视频-->
     </div>
-    <a class="hnz_rt-list-con">
+    <div class="hnz_rt-list-con">
 	  <h3>课件内容名称</h3>
         <div><span class="hnz_say"> 富士康</span> <span class="hnz_date">2014-11-11</span> <span class="hnz_see">10</span></div>
       <p>鸡丝豆腐老卡机岁的就分了就分了可是当你放开克莱斯勒的建立稳定粮食年产克里斯蒂内存颗粒</p>
+    </div>
     </a>
     </li>
     <!--一个列表结束-->

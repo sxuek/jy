@@ -13,6 +13,7 @@ background:#fff;
 	border: 1px solid #ccc;
 	}
 .hnz_rt-list-move{
+	float:left;width:107px;height:107px;
 	background:#b84526 url(../../images/hnz/hnz_jpdd-move.gif) no-repeat center center;
 	border: 1px solid #b84526;
 	}
