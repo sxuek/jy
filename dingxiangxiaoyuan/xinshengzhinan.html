@@ -118,29 +118,67 @@
     <img class="left-image" src="../images/zhinan-left-arrow.png"/>
     <img class="right-image" src="../images/zhinan_right_arrow.png"/>
     </div>
+
+    <div class="image-list">
+      <a><img class="l-l-image" src="../images/zhinan-left-arrow.png"/></a>
+      <a><img class="l-r-image" src="../images/zhinan_right_arrow.png"/></a>
+      <div class="image-wrapper">
+        <img src="../images/zhinan.png"/>
+        <img src="../images/zhinan.png"/>
+        <img src="../images/zhinan.png"/>
+        <img src="../images/zhinan.png"/>
+        <img src="../images/zhinan.png"/>
+
+
+        <img src="../images/zhinan.png"/>
+        <img src="../images/zhinan.png"/>
+        <img src="../images/zhinan.png"/>
+        <img src="../images/zhinan.png"/>
+        <img src="../images/zhinan.png"/>
+      <div class="clear"></div>
+
+      </div>
+    </div>
+<script>
+
+$(function(){
+
+  $(".image-wrapper").attr("mar", 0);
+  // var zongkuandu = -($(".image-wrapper").find('img').length)*122 + 700;
+  // console.log(zongkuandu);
+
+  $(".l-r-image").click(function(){
+    $(".image-wrapper").stop();
+    var mar = $('.image-wrapper').attr('mar');
+
+
+      $(".image-wrapper").attr("mar", mar-122);
+      $('.image-wrapper').animate({'margin-left':mar-122},250);
+
+  });
+
+  $(".l-l-image").click(function(){
+    $(".image-wrapper").stop();
+    var mar = parseInt($('.image-wrapper').attr('mar'));
+    if(mar < 0){
+      $(".image-wrapper").attr("mar", mar+122);
+      $('.image-wrapper').animate({'margin-left': parseInt(mar) + 122},250);
+    }
+    if(mar == 0){
+      alert('没有更多');
+    }
+  });
+
+  $(".image-wrapper").find("img").click(function(){
+    // $($(".zhinapic").find("img")[0]).attr('src',$(this).)
+  });
+
+})
+</script>
     <div class="zhinancontent">
-(defun xah-syntax-color-hsl ()
-  "Syntax color hex color spec such as 「hsl(0,90%,41%)」 in current buffer."
-  (interactive)
-  (font-lock-add-keywords
-   nil
-  '(("hsl( *\\([0-9]\\{1,3\\}\\) *, *\\([0-9]\\{1,3\\}\\)% *, *\\([0-9]\\{1,3\\}\\)% *)"
-     (0 (put-text-property
-         (+ (match-beginning 0) 3)
-         (match-end 0)
-         'face (list :background
- (concat "#" (mapconcat 'identity
-                        (mapcar
-                         (lambda (x) (format "%02x" (round (* x 255))))
-                         (color-hsl-to-rgb
-                          (/ (string-to-number (match-string-no-properties 1)) 360.0)
-                          (/ (string-to-number (match-string-no-properties 2)) 100.0)
-                          (/ (string-to-number (match-string-no-properties 3)) 100.0)
-                          ) )
-                        "" )) ;  "#00aa00"
-                      ))))) )
-  (font-lock-fontify-buffer)
-  )
+地址:山西省太原市坞城路92号 邮编:030006 联系电话:0351-7010255
+COPYRIGHT SHANXI UNIVERSITY ALL RIGHTS RESERVED 版权所有:山西大学
+非经营性互联网信息服务审批号 （晋）ICP备05000471号 Webmaster@sxu.edu.cn
     </div>
 
 
