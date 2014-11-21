@@ -23,7 +23,7 @@
 		 height:45px;
 	  }
 	.wq_fldh_title:hover{
-	 background:#02bebe;
+	 background:#009494;
 		}
 	.wq_fldh_title .wq_fldh_sanjiao{
  width:8px;height:8px;background:url(../images/wq_daosanjiao.png) no-repeat center top;
@@ -63,4 +63,30 @@ float:right;
 	.wq_fanye span{padding:2px;}
    .wq_tiaozhuan{ width:20px;height:18px;text-align:center; 
    float:left;border:1px solid #575757; 
-	   }		
+	   }	
+/*党史上的今天*/	   
+	 .wq_dsjt{
+	width:1080px;height:27px;margin:0 auto;
+	position:relative;overflow:hidden;
+		 }  
+	 .wq_dsjt_inner{
+	position:absolute;height:27px;color:#999;top:0;left:0;
+	width:auto;margin-left:280px;
+		  } 
+	 .wq_dsjt_inner img{
+	display:block;	 
+		 }	  
+	 .wq_dsjt_word{
+	height:27px;line-height:27px; width:auto;
+	float:left;
+		 }  
+	 .wq_dsjt_calnder{
+	height:27px;width:100px;padding-left:30px;float:left;
+	line-height:30px;background:url(../images/wq/wq_calnder.png) no-repeat 0 0; ;	 color:#009494;	line-height:27px;
+		 }  
+	   
+	   
+	   
+	   
+	   
+	   	
