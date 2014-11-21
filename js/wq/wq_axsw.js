@@ -11,8 +11,8 @@
 		  flag=true;	
 			}	
 		}) 
-	 $(".wq_paixu span").click(function(e){
-		var ev=e||e.event;
+	 $(".wq_paixu span").mousedown(function(e){
+		var ev=e;
 	if (ev.preventDefault) {ev.preventDefault()} 
      else{ ev.returnValue = false;}
      })
