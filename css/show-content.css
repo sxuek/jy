@@ -41,7 +41,8 @@ width:100%;height:auto;margin-top:10px;
 }
 #yyj-comment-con .content .title{
   text-align:center;
-  width:100%;
+  width:100%;font-size:15px;
+  font-weight：bold;
 }
 #yyj-comment-con .content .info{
   text-align:center;
