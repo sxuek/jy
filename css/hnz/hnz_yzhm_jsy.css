@@ -1,6 +1,6 @@
 @import url(../base.css);
 /*jsy*/
-.hnz_jsy-box{width:1080px;height:530px; margin:0 auto;margin-top:25px;ma rgin-bottom:25px; box-shadow: 0 2px 5px #ccc; background: #fff url(../../images/hnz/hnz_yzhm-title.gif) no-repeat 0 10px; overflow:hidden; position:relative;}
+.hnz_jsy-box{width:1080px;height:530px; margin:0 auto;margin-top:25px;ma rgin-bottom:25px; box-shadow: 0 0 5px #ccc; background: #fff url(../../images/hnz/hnz_yzhm-title.gif) no-repeat 0 10px; overflow:hidden; position:relative;}
 .hnz_jsy-box div{position:relative; z-index:10;}
 .hnz_jpdd{width:434px;height:394px;margin:123px 0 10px 10px; overflow:hidden; display:inline;}
 .hnz_dxsx{width:310px;height:254px;overflow:hidden;margin-top:10px;}

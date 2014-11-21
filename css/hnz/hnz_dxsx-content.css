@@ -1,4 +1,4 @@
-.hnz_rt-list { width: 778px; background: #fff; height: auto; float: right; box-shadow: 2px 2px 5px #bbb; display: inline-block; padding: 16px; }
+.hnz_rt-list { width: 778px; background: #fff; height: auto; float: right; box-shadow:0 0 5px #ccc; display: inline-block; padding: 16px; }
 .hnz_rt-list .hnz_rt-con-lt{width:216px;height:288px; background:url(../../images/hnz/hnz_book-bg.gif) no-repeat 0 0;float:left;}
 .hnz_rt-con-lt img{width:201px;height:268px;margin: 2px 2px;}
 .hnz_rt-con-rt{width:537px;height:268px;float:right;margin-left:25px;}
