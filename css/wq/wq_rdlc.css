@@ -3,6 +3,9 @@
 	display:inline; margin-left:15px;margin-bottom:15px;
 	position:relative;
 	 }
+  .wq_newslist img{
+	 width:248px;height:248px; 
+	  }	 
  .wq_play{
 	width:70px;height:70px;background:url(../../images/myl_play.png) no-repeat;  position:absolute; left:85px;top:80px; cursor:pointer;
 	 }
