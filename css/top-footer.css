@@ -22,7 +22,7 @@
 .hnz_nav li:hover>a{background:#009494;color:#fff;}
 .hnz_nav li:hover i{background:url(../../images/hnz_arrow_hot.png) no-repeat 0 0;}
 .hnz_nav li dl{width:100%;height:auto; display:none; position:absolute; z-index:999; }
-.hnz_nav li dl dd{width:100%;height:49px;background:#009494;border-top:1px solid #fff;}
+.hnz_nav li dl dd{width:100%;height:49px;background:#009494;border-top:1px solid #eee;}
 .hnz_nav li dl dd a{color:#fff;transition:all 1s ease;}
 .hnz_nav li dl dd a:hover{background:#007575;}
 /*top结束*/
