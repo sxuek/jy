@@ -11,11 +11,11 @@
 position:relative;z-index:100;
 }
 .hnz_jsy-box div dl{width:100%;height:auto;color:#fff;background:#000; position:absolute;bottom:0; opacity:0.8;filter:alpha(opacity=80); 
-left:0;
+left:0; 
 }
 .hnz_jsy-box div dl span{float:left; display:inline-block;}
 .hnz_jsy-box div dl dt b{float:right;display: inline-block;width:19px;height:19px; border-radius:50%; font-family:"微软雅黑"; font-weight:normal; border:1px solid #fff; font-size:14px; text-align:center; line-height:19px;margin-top:7px}
-.hnz_jsy-box div dl dt{width:80%;height:35px;margin:0 auto; text-align:left; padding:0 5%;line-height:35px; border-bottom:1px solid #ccc;  transition: all 1s ease;
+.hnz_jsy-box div dl dt{width:80%;height:35px;margin:0 auto; text-align:left; padding:0 5%;line-height:35px;transition:all 1s ease;
 }
-.hnz_jsy-box div dl dd{width:80%;height:auto;margin:0 auto;padding:15px 10%; }
+.hnz_jsy-box div dl dd{width:80%;height:auto;margin:0 auto;padding:15px 5%;border-top:1px solid #ccc;}
 /*jsy 结束*/
