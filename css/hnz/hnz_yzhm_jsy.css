@@ -14,7 +14,7 @@ position:relative;z-index:100;
 left:0; 
 }
 .hnz_jsy-box div dl span{float:left; display:inline-block;}
-.hnz_jsy-box div dl dt b{float:right;display: inline-block;width:19px;height:19px; border-radius:50%; font-family:"微软雅黑"; font-weight:normal; border:1px solid #fff; font-size:14px; text-align:center; line-height:19px;margin-top:7px}
+.hnz_jsy-box div dl dt b{float:right;display: inline-block;width:19px;height:19px; border-radius:50%; font-family:"微软雅黑"; font-weight:normal; border:1px solid #fff; font-size:14px; text-align:center; line-height:19px;margin-top:7px;}
 .hnz_jsy-box div dl dt{width:80%;height:35px;margin:0 auto; text-align:left; padding:0 5%;line-height:35px;transition:all 1s ease;
 }
 .hnz_jsy-box div dl dd{width:80%;height:auto;margin:0 auto;padding:15px 5%;border-top:1px solid #ccc;}

@@ -78,7 +78,7 @@
 .hnz_sub-c-rt .hnz_sdxb-list a{display:block;color:#fff;font-size:14px;margin-bottom:5px;}
 .hnz_sub-c-rt a:hover{color:#009494;}
 .hnz_content-box .hnz_con-rt {width:450px;height:300px;float:left;margin-left:30px;}
-.hnz_con-rt a{width:150px;height:150px;float:left;}
+.hnz_con-rt a{width:150px;height:150px;float:left;transition:all 0.4s ease;}
 .hnz_con-rt a h3{font-size:16px;color:#fff;margin-left:10px;margin-top:10px;}
 .hnz_con-rt a p{font-size:16px;color:#fff;margin-left:10px;margin-top:5px;}
 .hnz_con-rt a:hover{background:#006c6c;}
