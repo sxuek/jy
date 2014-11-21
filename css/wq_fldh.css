@@ -3,11 +3,11 @@
     .wq_fldh{
   float:left;
   width:257px;height:auto;	
-  background:#fff;
+  background:#fff;overflow:hidden;
 	}
 	.wq_fldh_top{
  width:100%;height:72px;background:url(../images/wq_fldh.jpg) no-repeat;	
- margin-bottom:8px;
+ margin-bottom:8px;_margin-bottom:-25px;
 	}
 	.wq_fldh_content{
  background:#fff;	
@@ -16,15 +16,24 @@
  width:234px;height:45px;	margin-left:2px;border-top:1px solid #e6e6e6;
  border-bottom:1px solid #e6e6e6;line-height:45px;padding-left:20px;
  color:#575757;cursor:pointer;font-size:16px;background:#fff;
-  transition:all 1s ease;
+  transition:all 1s ease; 
 	}
+	.wq_fldh_title span{
+		 overflow:hidden;
+		 height:45px;
+	  }
 	.wq_fldh_title:hover{
 	 background:#02bebe;
 		}
-	.wq_fldh_sanjiao{
- width:8px;height:8px;background:url(../images/wq_daosanjiao.png) no-repeat center;
- display:block;float:right;
+	.wq_fldh_title .wq_fldh_sanjiao{
+ width:8px;height:8px;background:url(../images/wq_daosanjiao.png) no-repeat center top;
+float:right;
  margin-right:16px;margin-top:18px;
+ overflow:hidden;
+	}
+	.wq_list{
+		 width:257px;height:auto;background:#fff;
+		 _margin-left:-20px;
 	}
 	.wq_fldh_list{
  width:211px;height:40px;border-bottom:1px dashed #e6e6e6;
