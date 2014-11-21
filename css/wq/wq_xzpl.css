@@ -16,7 +16,10 @@
 	  }	  
    .wq_left_image{
 	 width:295px;height:100%;background:blue;   
-	   }	    
+	   }
+	.wq_left_image img{
+	width:295px;height:100%;	
+		}   	    
    .wq_right_list{
 	 width:222px;height:100%;  
 	   }
@@ -49,6 +52,9 @@
 	width:440px;height:330px;margin:0 auto;background:blue;margin-top:10px;
 	margin-bottom:30px;	 
 		 }
+	 .wq_right_pic img{
+		width:440px;height:330px; 
+		 }	 
 	 .wq_jianjie_content{
 	padding-left:15px;padding-right:15px;text-indent:2em;	 
 		 }

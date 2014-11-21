@@ -58,7 +58,10 @@
 	  }	     
    .wq_list_left{
 	 height:100%;width:155px;background:blue;margin-right:17px;
-	   }	
+	   }
+	.wq_list_left img{
+	width:155px;height:100%;	
+		}   	
    .wq_list_one{
 	  width:580px;height:40px;line-height:40px;
 	   }	

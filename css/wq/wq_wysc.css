@@ -11,6 +11,9 @@
 	.wq_wyone_top{
 	width:100%;height:290px;position:relative;	background:#009494;
 		}	
+	.wq_wyone_top img{
+	width:230px;height:290px;	
+		}	
 	.wq_wyone_zhezhao{
 	width:100%;height:50px;background:#000;opacity:0.5;filter:alpha(500);
 	position:absolute;left:0; bottom:0;
