@@ -65,26 +65,7 @@ float:right;
    float:left;border:1px solid #575757; 
 	   }	
 /*党史上的今天*/	   
-	 .wq_dsjt{
-	width:1080px;height:27px;margin:0 auto;
-	position:relative;overflow:hidden;
-		 }  
-	 .wq_dsjt_inner{
-	position:absolute;height:27px;color:#999;top:0;left:0;
-	width:auto;margin-left:280px;
-		  } 
-	 .wq_dsjt_inner img{
-	display:block;	 
-		 }	  
-	 .wq_dsjt_word{
-	height:27px;line-height:27px; width:auto;
-	float:left;
-		 }  
-	 .wq_dsjt_calnder{
-	height:27px;width:100px;padding-left:30px;float:left;
-	line-height:30px;background:url(../images/wq/wq_calnder.png) no-repeat 0 0; ;	 color:#009494;	line-height:27px;
-		 }  
-	   
+	
 	   
 	   
 	   
