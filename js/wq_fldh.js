@@ -8,24 +8,23 @@ $(function  () {
    $(".wq_list .wq_fldh_list:last-child").css("border","0");
    
    
-      //党史上的今天 js
-
+   //党史上的今天 js
    !function(){
-   var ulW=$('.hnz_dsjt-list').width();
-   $('.hnz_dsjt-list li').each(function(index, element) {
-	   var liW= $('.hnz_dsjt-list li:eq('+index+')').width();
-   if(liW<ulW){
-	   $('.hnz_dsjt-list li:eq('+index+')').css({width:ulW});
-	   }
-	});
-   
+	   var ulW=$('.hnz_dsjt-list').width();
+	   $('.hnz_dsjt-list li').each(function(index, element) {
+		   var liW= $('.hnz_dsjt-list li:eq('+index+')').width();
+	   if(liW<ulW){
+		   $('.hnz_dsjt-list li:eq('+index+')').css({width:ulW});
+		   }
+		});
+   		//auto up
 	   var dt=setInterval(upup,5000)
 	   function upup(){
 		  var oneW=$('.hnz_dsjt-list li:first').width();
 		  if(oneW>ulW){
 			  var time=20000*oneW/ulW+200;
 			  clearInterval(dt);
-			  $('.hnz_dsjt-list li:first').animate({'margin-left':-oneW},time,'linear',function(){
+			  $('.hnz_dsjt-list li:first').animate({'margin-left':-(oneW-ulW/4)},time,'linear',function(){
 				  $('.hnz_dsjt-list li:first').animate({'margin-top':-45},3000,function(){
 					  $('.hnz_dsjt-list li:first').appendTo('.hnz_dsjt-list');
 					  $('.hnz_dsjt-list li').css({'margin-top':0,'margin-left':0});
@@ -33,13 +32,14 @@ $(function  () {
 				  })
 				  
 				  })
-			  }else{
-	   $('.hnz_dsjt-list li:first').animate({'margin-top':-45},3000,function(){
+			}else{
+	   		  $('.hnz_dsjt-list li:first').animate({'margin-top':-45},3000,function(){
 			  $('.hnz_dsjt-list li:first').appendTo('.hnz_dsjt-list');
 			  $('.hnz_dsjt-list li').css({'margin-top':0});
 			   })
 			  }
 	   }
+	   //click leftbtn
 	   $('.hnz_dsjt-lt').click(function(){
 		   clearInterval(dt);
 		   $('.hnz_dsjt-list li').stop();
@@ -51,21 +51,17 @@ $(function  () {
 			  			dt=setInterval(upup,5000);
 				  })
 		   })
+		   //click rightbtn
 		 $('.hnz_dsjt-rt').click(function(){
-		   clearInterval(dt);
+		   clearInterval(dt);   
 		   $('.hnz_dsjt-list li').stop();
-		   var oneW=$('.hnz_dsjt-list li:last').width();
-		   			 $('.hnz_dsjt-list li:last').css({'margin-top':-45,'margin-left':0});
-		   			$('.hnz_dsjt-list li:last').prependTo('.hnz_dsjt-list');
-					 
-		  
-				  $('.hnz_dsjt-list li:first').animate({'margin-top':0},1000,function(){
-					  $('.hnz_dsjt-list li').css({'margin-top':0,'margin-left':0});
+		   		var oneW=$('.hnz_dsjt-list li:last').width();
+		   		$('.hnz_dsjt-list li:last').css({'margin-top':-45,'margin-left':0});
+		   		$('.hnz_dsjt-list li:last').prependTo('.hnz_dsjt-list');
+				$('.hnz_dsjt-list li:first').animate({'margin-top':0},1000,function(){
+					    $('.hnz_dsjt-list li').css({'margin-top':0,'margin-left':0});		
 			  			dt=setInterval(upup,5000);
 				  })
 		   })
    }()
-
-   
-   
 })
