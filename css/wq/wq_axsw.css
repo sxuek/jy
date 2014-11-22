@@ -10,12 +10,14 @@
 	         width:800px;height:60px;
 	  }			  
  #wq_right_serch{
-	width:500px;height:38px;
+	width:490px;height:38px;
 	border:1px solid #009494; 
 	border-radius:9px;
 	float:left;font-size:16px;
 	color:#555;padding-left:30px;
 	font-weight:bold;
+	line-height:38px;
+	padding-right:10px;
 	 }	 
  .wq_serchbut{
 	width:75px;height:40px;float:left;margin-left:-15px;
@@ -43,7 +45,7 @@
 	height:65px;padding-top:126px; 
 	 }	 
  .wq_axsw_zhezhao{
-	width:800px;height:65px; background:#000;opacity:0.5; filter:alpha(50);
+	width:800px;height:65px; background:#000;opacity:0.5; filter:Alpha(opacity=50);
 	position:relative;
 	 }	
   .wq_axsw_tb{

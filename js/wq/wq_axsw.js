@@ -12,8 +12,13 @@
 			}	
 		}) 
 	 $(".wq_paixu span").mousedown(function(e){
-		var ev=e;
+		var ev=e||document.event;
 	if (ev.preventDefault) {ev.preventDefault()} 
      else{ ev.returnValue = false;}
      })
+	  $(".wq_paixu span").click(function(e){
+		var ev=e||document.event;
+	if (ev.preventDefault) {ev.preventDefault()} 
+     else{ ev.returnValue = false;}  
+		  })
 	 })
