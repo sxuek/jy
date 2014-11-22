@@ -7,7 +7,7 @@
 	}
 	.wq_fldh_top{
  width:100%;height:72px;background:url(../images/wq_fldh.jpg) no-repeat;	
- margin-bottom:8px;_margin-bottom:-25px;
+ margin-bottom:8px;
 	}
 	.wq_fldh_content{
  background:#fff;	
@@ -33,7 +33,6 @@ float:right;
 	}
 	.wq_list{
 		 width:257px;height:auto;background:#fff;
-		 _margin-left:-20px;
 	}
 	.wq_fldh_list{
  width:211px;height:40px;border-bottom:1px dashed #e6e6e6;
@@ -64,6 +63,7 @@ float:right;
    .wq_tiaozhuan{ width:20px;height:18px;text-align:center; 
    float:left;border:1px solid #575757; 
 	   }	
+<<<<<<< HEAD
 /*党史上的今天*/	   
 	 .hnz_dsjt{
 	width:1080px;height:45px;margin:0 auto;
@@ -79,6 +79,10 @@ float:right;
 			}
 		.hnz_dsjt-btns span{width:40px;height:45px; text-align:center;color:#ccc; cursor:pointer;}
 		.hnz_dsjt-btns span:hover{color:#999;}
+=======
+  
+	
+>>>>>>> origin/master
 	   
 	   
 	   
