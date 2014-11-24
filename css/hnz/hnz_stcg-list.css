@@ -1,0 +1,17 @@
+.hnz_rt-list { width:1048px; background: #fff; height: auto; float: right; box-shadow: 2px 2px 5px #bbb; display: inline-block; padding:30px 16px; }
+.hnz_rt-list li{width:240px;height:333px; background:url(../../images/hnz/hnz_tdcg-list.gif) no-repeat 0 0; border-bottom:1px solid #ddd;float:left;margin: 0 11px;margin-bottom:30px; overflow:hidden;}
+.hnz_rt-list li img{width:223px;height:279px;margin: 3px 3px;}
+.hnz_rt-list li a{ display:block;width:100%;height:50px;font-size:16px; text-align:center; line-height:50px;}
+.hnz_rt-list li a:hover{color:#009494;}
+
+/*翻页效果*/	
+	.wq_fanye{
+  width:400px;
+  height:20px;padding-top:15px;padding-bottom:15px;
+  color:#575757;line-height:20px;
+		}
+	.wq_fanye a:hover{color:#009494; font-weight:bold;}
+	.wq_fanye span{padding:2px;}
+   .wq_tiaozhuan{ width:20px;height:18px;text-align:center; 
+   float:left;border:1px solid #575757; 
+	   }
