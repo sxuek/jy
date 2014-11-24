@@ -1,0 +1,9 @@
+ .wq_image_box{
+	width:1060px;margin:0 auto;
+	height:517px;overflow:hidden;
+	padding:10px 0; 
+	 }
+	.wq_image_box li{float:left;} 
+  .wq_image_box li img{
+   float:left;
+	  }	 
