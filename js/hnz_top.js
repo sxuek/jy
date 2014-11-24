@@ -1,5 +1,6 @@
 $(function(){
 	//返回顶部
+	!function(){
 	$(".to-top").hide();
 	var top;
 	var t;
@@ -28,7 +29,7 @@ $(function(){
 			}
 		});
 	});
-
+}();
 	//login btns click
 	$('.hnz_logo-box .hnz_btn').mousedown(function(){$(this).css({background:'#006c6c'})});
 	$('.hnz_logo-box .hnz_btn').mouseup(function(){$(this).css({background:'#009494'})});
