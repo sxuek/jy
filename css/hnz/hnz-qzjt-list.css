@@ -1,8 +1,8 @@
 .hnz_rt-list-box { width: 778px; background: #fff; height: auto; float: right; box-shadow: 2px 2px 8px #bbb; display: inline-block; padding: 16px; }
 .hnz_rt-list{width:778px;height:auto;padding:16px 0;}
-.hnz_xybq{width:778px;height:auto;overflow:hidden;padding-bottom:5px; border:1px solid #ddd;padding-top:15px}
-.hnz_xybq li{width:auto;height:30px;float:left;}
-.hnz_xybq li a{padding:5px 10px 5px 10px;font-weight:bold;}
+.hnz_xybq{width:778px;height:auto;overflow:hidden;padding-bottom:15px; border:1px solid #ddd;padding-top:15px}
+.hnz_xybq li{width:auto;height:30px;float:left; display:none; line-height:30px;}
+.hnz_xybq li a{padding:5px 10px 5px 10px;}
 .hnz_xybq li a:hover{color:#009494; }
 .hnz_rt-list li { width: 778px; height: 109px; margin-bottom: 25px; }
 .hnz_rt-list li .hnz_rt-list-img { width: 218px; height: 109px; float: left; }
