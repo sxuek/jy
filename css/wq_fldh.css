@@ -38,7 +38,7 @@ float:right;
  width:211px;height:40px;border-bottom:1px dashed #e6e6e6;
  margin-left:21px;line-height:40px;background:#fff;
  font-size:14px;color:#9d9f9f;padding-left:3px;
- cursor:pointer;transition:all 1s ease;
+ cursor:pointer;transition:all 1s ease;display:block;
 	}
 	.wq_fldh_list:hover{
 		 color:#02bebe;
