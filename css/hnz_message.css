@@ -1,0 +1,14 @@
+@import url(base.css);
+.hnz_messages-box{width:1020px;height:auto; background:#fff; box-shadow: 0 2px 6px #ccc; margin:0 auto;margin-top:25px;padding:0 30px; overflow:hidden;padding-bottom:20px;}
+.hnz_messages-box h5{widht:100%;height:55px; font-size:16px; line-height:55px; color:#009494; border-bottom:1px solid #ccc;}
+.hnz_messages-box li{
+	width:100%;height:auto; border-bottom:1px solid #ccc;
+	 overflow:hidden;
+	}
+.hnz_messages-box li h6{
+	width:100%;height:36px;font-size:14px; line-height:36px;
+	}
+.hnz_messages-box li p{
+	width:94%;height:auto;line-height:24px;padding:10px 3%;
+	}
+.hnz_messages-box li .hzn_plrq{width:auto;height:30px; line-height:30px; float:right;}
