@@ -5,8 +5,11 @@
   margin-left:20px;
   margin-bottom:60px;
   position:relative;
-  display:inline;
+ overflow:hidden;
 }
+.tushuo-item img{
+  width:360px;height:230px;	
+	}
 .tushuo-item p{
   height:50px;
   line-height:50px;
