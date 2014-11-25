@@ -1,0 +1,153 @@
+.tushuo-item{
+  border:1px solid #0f551d;
+  width:320px;
+  height:280px;
+  margin-left:28px;
+  margin-top:20px;
+  margin-bottom:60px;
+  position:relative;
+  overflow:hidden;
+}
+.tushuo-item-imgbox{
+  width:100%;height:230px;
+}
+
+.tushuo-item img{
+width:100%;height:100%;
+}
+.tushuo-item-info{
+  height:50%;
+  line-height:50px;
+  width:100%;
+  background:#009494;
+  color:#fff;
+  position:relative;
+
+}
+.tushuo-item-top{
+  height:100%;
+  width:100%;
+  background:#009494;
+  color:#fff;
+  position:absolute;
+  left:0;top:-100%;
+}
+.tushuo-item-bottom{
+height:100%;
+  width:100%;
+  background:#009494;
+  color:#fff;
+  position:absolute;
+  left:0;top:100%;
+}
+
+.tushuo-item-info h3{
+  float:left;height:100%;width:70%;
+  margin-left:5px;font-size:15px;
+  font-weight:bold;
+}
+
+.tushuo-item-info a{
+float:right;color:#fff;
+margin-right:5px;font-size:15px;
+}
+
+
+
+.myl-content{
+              width:1080px;
+              height:auto;
+              overflow:hidden;
+              margin:0 auto;
+              margin-top:25px;
+              margin-bottom:25px;
+              }
+
+.myl-news-list-box{
+                    background-color:white;
+                    width:1080px;
+                    height:auto;
+                    float:right;
+                    box-shadow: 0px 2px 5px rgb(179,179,179) ;
+                    display:inline-block;
+                    }
+
+.myl-news-list-title{
+                      padding-left:10px;
+                      height:40px; 
+                      line-height:40px;
+                      font-size:14px;
+                      width:790px;
+                      margin-top:6px;
+                      margin-bottom:12px;
+                      }
+
+.myl-news-list-title span{
+                           font-size:14px;
+                           color:rgb(0,148,147);
+                           }
+
+.news-item{
+            margin-left:14px;
+            width:248px;
+            height:248px;
+            margin-right:1px;
+            margin-bottom:20px;
+            position:relative;
+            display:inline;
+            }
+
+.news-item-image{
+                  width:247px;height:181px;
+                  box-shadow:  0px 2px 5px rgb(179,179,179) ;
+                  }
+
+.news-item-image-zhezhao{
+                          display:none; 
+                          background-color:black;
+                          color:white;
+                          position:absolute;
+                          width:241px;height:175px;
+                          top:3px;
+                          left:3px;
+                          z-index:9;
+                          }
+.news-item-image-zhezhao-wenzi{
+                                display:none; 
+                                color:white;
+                                position:absolute;
+                                width:175px;
+                                height:65px;
+                                line-height:65px;
+                                text-align:center;
+                                top:50%;
+                                left:50%;
+                                margin-left:-88px;
+                                margin-top:-65px;
+                                z-index:10;
+                                border-top:1px solid white;
+                                border-bottom:1px solid white;
+                                }
+.news-item-image-zhezhao-wenzi a{
+                                  color:white;
+                                  }
+
+.news-item-image img{
+                      width:241px;height:175px;
+                      margin-top:3px;
+                      margin-bottom:3px;
+                      margin-left:3px;
+                      margin-right:3px;
+                      }
+.news-item-content{
+                    margin-top:15px;
+                    line-height:18px;
+                    }
+.news-item-content p{
+                      font-size:15px;
+                      }
+
+.news-item-content span{
+                         margin-left:2px;
+                         font-size:12px;
+                         }
