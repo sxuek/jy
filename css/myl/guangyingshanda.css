@@ -3,10 +3,11 @@
   width:360px;
   height:280px;
   margin-left:20px;
-  margin-bottom:20px;
+  margin-bottom:10px;
   position:relative;
   display:inline-block;
   overflow:hidden;
+  margin-top:20px;
 }
 .guangying-item p{
   padding:0 10px;
