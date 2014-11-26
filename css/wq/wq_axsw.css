@@ -21,7 +21,7 @@
 	 }	 
  .wq_serchbut{
 	width:75px;height:40px;float:left;margin-left:-15px;
-	border-radius:9px; background:url(../../images/wq/wq_fdj.jpg) no-repeat center #259fa0;cursor:pointer;
+	border-radius:9px; background:url(../../images/wq/wq_fdj.jpg) no-repeat center #259fa0;cursor:pointer;display:block;
 	 }
  .wq_paixu{
 	width:145px;height:38px;border:1px solid #009494; float:right;
