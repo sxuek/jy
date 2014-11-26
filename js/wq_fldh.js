@@ -6,7 +6,9 @@ $(function  () {
 	 $(this).toggleClass("wq_fldh_click");
    })
    $(".wq_list .wq_fldh_list:last-child").css("border","0");
-   
+    $(window).unload( function () { 
+	  $(".wq_fldh_bottom").focus();
+	 } );
    
    //党史上的今天 js
    !function(){
