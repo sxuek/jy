@@ -35,11 +35,11 @@ $(function(){
 	$('.hnz_logo-box .hnz_btn').mouseup(function(){$(this).css({background:'#009494'})});
 	$('.hnz_logo-box .hnz_search-btn').mousedown(function(){
 		$(this).addClass('hnz_search-btn-down');
-		$(this).removeClass('hnz_search-btn-up');
+		$(this).removeClass('hnz_search-btn');
 		});
 	$('.hnz_logo-box .hnz_search-btn').mouseup(function(){
 		$(this).removeClass('hnz_search-btn-down');
-		$(this).addClass('hnz_search-btn-up');
+		$(this).addClass('hnz_search-btn');
 		});
 	//nav
 	var t;

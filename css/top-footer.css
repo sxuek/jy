@@ -11,9 +11,8 @@
 .hnz_login-box .hnz_pwd{width:100px;height:28px;line-height:28px;border:1px solid #009494; background:url(../images/hnz_pwd.gif) no-repeat 110px center;padding:0 30px 0 5px;margin-left:5px;}
 .hnz_login-box .hnz_btn{width:60px;height:30px;background:#009494;border:0;color:#fff; cursor:pointer;margin-left:5px;}
 .hnz_login-box .hnz_search-input{width:160px;line-height:28px;height:28px;border:1px solid #009494;padding:0 5px;margin-left:5px;}
-.hnz_login-box .hnz_search-btn{width:29px;height:30px;border:0;margin-left:0px; cursor:pointer;}
-.hnz_search-btn-up{background:#009494 url(../images/hnz_search.gif) no-repeat 0 0;}
-.hnz_search-btn-down{background:#009494 url(../images/hnz_search_click.gif) no-repeat 0 0;}
+.hnz_login-box .hnz_search-btn{background:#009494 url(../images/hnz_search.gif) no-repeat 0 0;width:29px;height:30px;border:0;margin-left:0px; cursor:pointer;}
+.hnz_search-btn-down{background:#009494 url(../images/hnz_search_click.gif) no-repeat 0 0;width:29px;height:30px;border:0;margin-left:0px; cursor:pointer;}
 	/*nav*/
 .hnz_n-box{min-width:1080px;height:49px;border-top:1px solid #009494;}
 .hnz_nav{width:1080px;height:100%;margin:0 auto;}
