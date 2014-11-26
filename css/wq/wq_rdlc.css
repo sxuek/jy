@@ -8,6 +8,7 @@
 	  }	 
  .wq_play{
 	width:70px;height:70px;background:url(../../images/myl_play.png) no-repeat;  position:absolute; left:85px;top:80px; cursor:pointer;
+	display:block;
 	 }
  .wq_news_bottom{
 	width:221px;height:60px;position:absolute;bottom:0;background:#009494;
