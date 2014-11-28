@@ -21,17 +21,14 @@
 	.wq_wyone_down{
 	width:36px;height:50px;padding-left:30px;line-height:50px;
 	font-size:16px;background:url(../../images/wq/wq_download.png)
-	no-repeat left ;	display:block;color:#fff;float:left;
-		}
-	.wq_wyone_updown{
-	background:url(../../images/wq/wq_download.png) no-repeat left 10px;	
-		}	
+	no-repeat left center;	display:block;color:#fff;float:left;
+	transition:all 0.5s ease;
+	}
 	.wq_wyone_read{
 	width:72px;height:50px;padding-left:30px;line-height:50px;color:#fff;
-	float:left;
-	font-size:16px;	
-		}
-	.wq_wyone_read:hover{text-decoration:underline;}		
+	float:right;margin-right:20px;
+	font-size:16px;	transition:all 0.5s ease;
+		}		
 	.wq_wysc_one h3{
 	padding-left:15px;	font-weight:bold;
 		}
