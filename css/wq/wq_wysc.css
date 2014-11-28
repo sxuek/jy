@@ -15,15 +15,23 @@
 	width:230px;height:290px;	
 		}	
 	.wq_wyone_zhezhao{
-	width:100%;height:50px;background:#000;opacity:0.5;filter:alpha(500);
-	position:absolute;left:0; bottom:0;
+	width:200px;height:50px;background:#000;opacity:0.5;filter:alpha(500);
+	position:absolute;left:0; bottom:0;padding-left:30px;
 		}	
 	.wq_wyone_down{
-	width:36px;height:50px;margin:0 auto;padding-left:30px;line-height:50px;
+	width:36px;height:50px;padding-left:30px;line-height:50px;
 	font-size:16px;background:url(../../images/wq/wq_download.png)
-	no-repeat left ;	cursor:pointer;
+	no-repeat left ;	display:block;color:#fff;float:left;
 		}
-	.wq_wyone_down a{color:#fff;}		
+	.wq_wyone_updown{
+	background:url(../../images/wq/wq_download.png) no-repeat left 10px;	
+		}	
+	.wq_wyone_read{
+	width:72px;height:50px;padding-left:30px;line-height:50px;color:#fff;
+	float:left;
+	font-size:16px;	
+		}
+	.wq_wyone_read:hover{text-decoration:underline;}		
 	.wq_wysc_one h3{
 	padding-left:15px;	font-weight:bold;
 		}
@@ -33,5 +41,8 @@
 	.wq_wyone_magzin{
 	color:#555;padding-left:15px;	
 		}	
-		
+	.hnz_xybq{width:800px;height:auto;overflow:hidden;padding-bottom:15px; border:1px solid #ddd;padding-top:15px;margin-top:25px;}
+.hnz_xybq li{width:auto;height:30px;float:left; display:none; line-height:30px;}
+.hnz_xybq li a{padding:5px 10px 5px 10px;}
+.hnz_xybq li a:hover{color:#009494; }	
 		
