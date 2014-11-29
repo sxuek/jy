@@ -2,11 +2,11 @@
 	 width:800px;height:263px;background:url(../../images/wq/wq_wysc.jpg) no-repeat; 
 	  }
    .wq_wysc_box{
-	 width:800px;height:849px;margin-top:40px; 
+	 width:800px;margin-top:40px; 
 	   }	   
     .wq_wysc_one{
-	width:230px;height:413px;margin-right:55px;
-	background:#fff;	
+	width:230px;height:auto;margin-right:55px;
+	background:#fff;margin-bottom:10px;	
 		}	   
 	.wq_wyone_top{
 	width:100%;height:290px;position:relative;	background:#009494;
@@ -36,7 +36,8 @@
 	color:#009494;padding-left:15px;	
 		}	
 	.wq_wyone_magzin{
-	color:#555;padding-left:15px;	
+	color:#555;padding-left:15px;padding-bottom:10px;height:20px;line-height:20px;
+	width:215px;overflow:hidden;	
 		}	
 	.hnz_xybq{width:800px;height:auto;overflow:hidden;padding-bottom:15px; border:1px solid #ddd;padding-top:15px;margin-top:25px;}
 .hnz_xybq li{width:auto;height:30px;float:left; display:none; line-height:30px;}

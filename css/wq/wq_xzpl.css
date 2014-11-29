@@ -6,7 +6,7 @@
 	 width:517px;height:588px;background:#ebebeb; 
 	  }	 
   .wq_xzpl_right{
-	 width:517px;height:588px;background:#ebebeb; 
+	 width:502px;height:588px;background:#ebebeb; 
 	  }	  
    .wq_xzpl_bottom{
 	 width:100%;border-bottom:1px solid #b3b3b3;height:37px;  
@@ -40,7 +40,8 @@
 	 padding-left:10px;	
 		} 
 	.wq_bottom_jianjie{
-	 padding-left:10px;padding-right:20px;text-indent:2em;	
+	 padding-left:10px;padding-right:20px;text-indent:2em;width:461px;
+	 height:60px;	overflow:hidden;
 		}
 	 .wq_bottom_like{
 	 width:491px;height:48px; margin:0 auto;
@@ -61,20 +62,16 @@
 	.wq_bottom_buttons{
 	background:url(../../images/wq/wq_pdfs.jpg) no-repeat center center;	
 		}	 
-	 .wq_right_jianjie{
-	padding-left:15px;padding-top:15px;	 
+	 .wq_xzpl_right{
+	padding-left:15px;padding-top:15px;	 padding-right:15px;text-indent:2em;
+	overflow:hidden;
 		 }
-	 .wq_right_pic{
+	.wq_xzpl_right img{
 	width:440px;height:325px;margin:0 auto;background:blue;margin-top:10px;
 	margin-bottom:30px;	 
 		 }
-	 .wq_right_pic img{
-		width:440px;height:325px; 
-		 }	 
-	 .wq_jianjie_content{
-	padding-left:35px;padding-right:35px;text-indent:2em;
-	overflow:auto;	 
-		 }
+	  
+	
 	 
 	 
 	 
