@@ -1,0 +1,43 @@
+.new-myl-list-box{
+  float: right;
+  width: 800px;
+  height: auto;
+  background: #fff;
+}
+.sdws-list-box{
+  border-bottom:1px solid #ccc;
+  margin-bottom:22px;
+  padding:20px 32px 60px;
+}
+
+.sdws-list-box dt {
+  font-size:18px;
+  font-weight:bold;
+  padding:10px 0px;
+  border-bottom:1px solid #ccc;
+  position:relative;
+  
+}
+.sdws-list-box dd{
+  padding:10px 24px;
+  border-bottom:1px dotted #ccc;
+  background:url("../../images/myl/new-myl-sdws-list-hui.png") no-repeat 8px 18px;
+
+}
+.sdws-list-box dd:hover{
+  border-bottom:1px solid #579292;
+  color:white;
+  background: #579292 url("../../images/myl/new-myl-sdws-list-lv.png") no-repeat 8px 18px;
+}
+#last-item{
+  border:none;
+}
+.plus-button{
+  width:16px;
+  height:16px;
+  cursor:pointer;
+  position:absolute;
+  top:50%;
+  margin-top:-8px;
+  right:10px;
+}
