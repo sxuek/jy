@@ -11,13 +11,14 @@
 }
 
 .sdws-list-box dt {
-  font-size:18px;
+  font-size:1.2em;
   font-weight:bold;
   padding:10px 0px;
   border-bottom:1px solid #ccc;
   position:relative;
-  
+  cursor:pointer;
 }
+
 .sdws-list-box dd{
   padding:10px 24px;
   border-bottom:1px dotted #ccc;
@@ -28,9 +29,6 @@
   border-bottom:1px solid #579292;
   color:white;
   background: #579292 url("../../images/myl/new-myl-sdws-list-lv.png") no-repeat 8px 18px;
-}
-#last-item{
-  border:none;
 }
 .plus-button{
   width:16px;
