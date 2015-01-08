@@ -13,6 +13,7 @@
 	font-family:"黑体";
 	text-align:center;
 	line-height:84px;
+	transition:all 0.6s ease;
 	}
 .yyj-list-box .new_hnz_left:hover,.new_hnz_right:hover{
 	background:#009494;color:#fff;
